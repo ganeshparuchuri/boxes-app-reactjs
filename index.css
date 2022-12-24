@@ -1,0 +1,51 @@
+/* Write your code here. */
+.bg_container {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Box_container {
+  background-color: #fbbf24;
+  height: 100px;
+  width: 100px;
+  margin: 17px;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Box_container1 {
+  background-color: #38bdf8;
+  height: 250px;
+  width: 250px;
+}
+.Box_container2 {
+  background-color: #ec4899;
+  height: 300px;
+  width: 300px;
+}
+.paragraph {
+  color: #ffffff;
+  font-family: roboto;
+}
+.heading {
+  color: black;
+  font-weight: bold;
+}
+.container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+@media (max-width: 700px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
