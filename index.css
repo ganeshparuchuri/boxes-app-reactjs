@@ -1,6 +1,6 @@
 /* Write your code here. */
 .bg_container {
-  background-color: white;
+  background-color: green;
   height: 100vh;
   display: flex;
   flex-direction: column;
